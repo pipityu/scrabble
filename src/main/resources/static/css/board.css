@@ -1,0 +1,79 @@
+body{
+    font-family: "Lucida Sans Typewriter", "fantasy", "Colonna MT";
+}
+
+h1{
+    text-align: center;
+    color: coral;
+}
+#gameBoard{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gameButton{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 30px;
+}
+.gameButton:hover{
+    background-color: coral;
+    color: black;
+}
+.field{
+    background-color: beige;
+    cursor: pointer;
+    font-size: larger;
+    text-align: center;
+    width: 6.66%;
+    float: left;
+}
+.field:hover{
+    background-color: coral;
+}
+#info{
+    margin-top: 5%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+td{
+    width: 33%;
+
+}
+
+.myCharacters{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myChar{
+    background-color: bisque;
+    text-align: center;
+    border-style: groove;
+    border-radius: 5px;
+    width: 8%;
+    float: left;
+}
+#availableCharactersDiv{
+    margin-left: 6%;
+    margin-right: 1%;
+    width: 5%;
+    float: left;
+}
+select{
+    background-color: bisque;
+    border-color: darkolivegreen;
+}

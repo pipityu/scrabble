@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrabble Engine</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <script src="/js/initGame.js" type="text/javascript"></script>
+    <script src="/js/functions.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/board.css">
+</head>
+<body>
+
+<h1>Scrabble Engine</h1>
+
+<div id="info">
+    <table>
+        <thead>
+        <th></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <button class="gameButton" id="newGame">New Game</button>
+            </td>
+            <td>
+                <button class="gameButton" id="generateChars">Generate</button>
+            </td>
+            <td>
+                <button class="gameButton" id="hintsButton">Hints</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="availableCharactersDiv"></div>
+<div id="gameBoard">
+
+</div>
+
+<div class="myCharacters">
+    <div class="myChar" id="ch1">-</div>
+    <div class="myChar" id="ch2">-</div>
+    <div class="myChar" id="ch3">-</div>
+    <div class="myChar" id="ch4">-</div>
+    <div class="myChar" id="ch5">-</div>
+    <div class="myChar" id="ch6">-</div>
+    <div class="myChar" id="ch7">-</div>
+    <div id="hints"></div>
+</div>
+
+</body>
+</html>
